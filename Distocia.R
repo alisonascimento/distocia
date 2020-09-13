@@ -20,3 +20,4 @@ missing_values_classe <- sapply(dados[-2], function(i) tapply(i, dados$`Situaç�
 percentual_missing_values_class <- sapply(dados[-2], function(i) tapply(i, dados$`Situação do parto`, 
                                           function(x) sum(is.na(x))/length(i))); percentual_missing_values_class
 # Percentual de NA das variaveis por classe em relacao a situacao do parto
+
